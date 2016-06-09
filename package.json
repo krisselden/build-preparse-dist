@@ -1,0 +1,17 @@
+{
+  "name": "build-preparse-dist",
+  "version": "1.0.0",
+  "description": "Apply preparse broccoli filter to an Ember dist.",
+  "main": "ember-cli-build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ember build"
+  },
+  "author": "Kris Selden",
+  "license": "MIT",
+  "dependencies": {
+    "ember-cli": "^2.5.1",
+    "broccoli-funnel": "^1.0.1",
+    "broccoli-ember-preparse": "^0.0.2"
+  }
+}
