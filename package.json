@@ -10,8 +10,9 @@
   "author": "Kris Selden",
   "license": "MIT",
   "dependencies": {
-    "broccoli-ember-preparse": "0.0.5",
+    "broccoli-ember-preparse": "0.0.6",
     "broccoli-funnel": "^1.0.3",
+    "broccoli-persistent-filter": "^1.2.6",
     "ember-cli": "^2.7.0"
   }
 }

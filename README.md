@@ -11,6 +11,6 @@ npm install
 Install a version of Ember via bower then run build.
 
 ```sh
-bower install ember#1.6.0
+bower install ember#alpha
 npm run build
 ```
