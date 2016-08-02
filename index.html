@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smoke Test</title>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="dist/ember.debug.js"></script>
+ <!-- <script src="dist/ember-template-compiler.js"></script>
+  <script type="text/x-handlebars" id="index">
+    Hello {{name}}!
+  </script> -->
+  <script type="text/javascript">
+    Ember.TEMPLATES.index = Ember.HTMLBars.template("{\"statements\":[[\"text\",\"Hello \"],[\"append\",[\"unknown\",[\"name\"]],false],[\"text\",\"!\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"meta\":{}}")
+    MyApp = Ember.Application.create();
+    MyApp.IndexController = Ember.Controller.extend({
+      name: 'World'
+    });
+  </script>
+</head>
+<body>
+
+</body>
+</html>

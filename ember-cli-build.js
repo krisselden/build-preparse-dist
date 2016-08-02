@@ -6,7 +6,6 @@ module.exports = function() {
     new Funnel('bower_components/ember', {
       exclude: ['.bower.json']
     }),
-    new Funnel('loader'),
     {
       glimmer: true
     }
